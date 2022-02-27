@@ -3,4 +3,4 @@ num2 = int ( input('- Digite outro número: ') )
 
 soma = num1 + num2
 
-print(num1 , '+' , num2 , '=' , soma)
+print('A soma entre {} e {} = {}'.format(num1, num2, soma))
