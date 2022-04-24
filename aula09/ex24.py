@@ -1,5 +1,5 @@
 cidade = str(input('- Cidade em que você nasceu: '))
 
-cidadeFormatada = cidade.strip().lower()
+cidades = cidade.strip().lower().split()
 
-print("santo" in cidadeFormatada)
+print(cidades[0] == 'santo')
